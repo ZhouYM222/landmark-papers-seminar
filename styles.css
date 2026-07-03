@@ -382,6 +382,19 @@ h1 {
   margin: 0 0 6px;
 }
 
+.schedule-link {
+  display: inline-flex;
+  margin-top: 12px;
+  color: var(--rust);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.94rem;
+  font-weight: 800;
+}
+
+.schedule-link:hover {
+  color: var(--green-dark);
+}
+
 .join-section {
   align-items: stretch;
 }
