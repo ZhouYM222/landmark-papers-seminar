@@ -87,19 +87,14 @@ nav a:hover {
   align-items: end;
   padding: 128px clamp(18px, 6vw, 72px) 64px;
   overflow: hidden;
-  background: #0e1814;
+  background:
+    url("./assets/landmark-seminar-hero.png?v=20260703") center / cover no-repeat,
+    #0e1814;
 }
 
-.hero-image,
 .hero-scrim {
   position: absolute;
   inset: 0;
-}
-
-.hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .hero-scrim {
