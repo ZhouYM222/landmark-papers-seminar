@@ -380,38 +380,6 @@ h1 {
   margin: 0 0 6px;
 }
 
-.speaker-section {
-  padding-top: 20px;
-}
-
-.checklist {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.checklist span {
-  position: relative;
-  min-height: 64px;
-  display: flex;
-  align-items: center;
-  padding: 14px 16px 14px 42px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #fff;
-  line-height: 1.45;
-}
-
-.checklist span::before {
-  content: "";
-  position: absolute;
-  left: 16px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--rust);
-}
-
 .join-section {
   align-items: stretch;
 }
@@ -467,8 +435,7 @@ h1 {
   .join-section,
   .stats,
   .timeline,
-  .field-grid,
-  .checklist {
+  .field-grid {
     grid-template-columns: 1fr;
   }
 
